@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Privacy Policy for Deen Saathi. Learn how the app handles local storage, permissions, ads, and third-party services."
+    />
+    <title>Privacy Policy | Deen Saathi</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #f7faf7;
+        --surface: rgba(255, 255, 255, 0.86);
+        --surface-strong: rgba(255, 255, 255, 0.96);
+        --border: rgba(27, 45, 59, 0.12);
+        --text: #122033;
+        --muted: #4f6477;
+        --accent: #12b981;
+        --accent-soft: rgba(18, 185, 129, 0.12);
+        --shadow: 0 20px 50px rgba(17, 24, 39, 0.08);
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #07101b;
+          --surface: rgba(15, 23, 42, 0.86);
+          --surface-strong: rgba(15, 23, 42, 0.96);
+          --border: rgba(148, 163, 184, 0.16);
+          --text: #e5eef6;
+          --muted: #9fb0c0;
+          --accent: #27d59a;
+          --accent-soft: rgba(39, 213, 154, 0.14);
+          --shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          sans-serif;
+        background:
+          radial-gradient(circle at top right, rgba(18, 185, 129, 0.12), transparent 28%),
+          radial-gradient(circle at bottom left, rgba(59, 130, 246, 0.12), transparent 28%),
+          var(--bg);
+        color: var(--text);
+        line-height: 1.65;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .wrap {
+        max-width: 840px;
+        margin: 0 auto;
+        padding: 32px 20px 56px;
+      }
+
+      .hero,
+      .card {
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        background: var(--surface);
+        box-shadow: var(--shadow);
+        backdrop-filter: blur(18px);
+        -webkit-backdrop-filter: blur(18px);
+      }
+
+      .hero {
+        padding: 28px;
+        margin-bottom: 18px;
+      }
+
+      .eyebrow {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 12px;
+        border-radius: 999px;
+        background: var(--accent-soft);
+        color: var(--accent);
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 14px 0 8px;
+        font-size: clamp(2rem, 4vw, 3.2rem);
+        line-height: 1.05;
+        letter-spacing: -0.04em;
+      }
+
+      .subtitle {
+        margin: 0;
+        max-width: 64ch;
+        color: var(--muted);
+        font-size: 1rem;
+      }
+
+      .meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 18px;
+      }
+
+      .pill {
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: var(--surface-strong);
+        border: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+
+      .stack {
+        display: grid;
+        gap: 14px;
+      }
+
+      .card {
+        padding: 24px;
+      }
+
+      h2 {
+        margin: 0 0 10px;
+        font-size: 1.1rem;
+        letter-spacing: -0.02em;
+      }
+
+      p {
+        margin: 0 0 12px;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+      }
+
+      li + li {
+        margin-top: 8px;
+      }
+
+      .footer {
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 640px) {
+        .wrap {
+          padding: 16px 14px 40px;
+        }
+
+        .hero,
+        .card {
+          border-radius: 20px;
+        }
+
+        .hero,
+        .card {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <span class="eyebrow">Legal</span>
+        <h1>Privacy Policy</h1>
+        <p class="subtitle">
+          This Privacy Policy explains how Deen Saathi handles local data, device permissions,
+          and third-party services.
+        </p>
+        <div class="meta" aria-label="Policy metadata">
+          <span class="pill">App: Deen Saathi</span>
+          <span class="pill">Last updated: May 16, 2026</span>
+          <span class="pill">Contact: imaanix.app@gmail.com</span>
+        </div>
+      </section>
+
+      <section class="stack" aria-label="Privacy policy content">
+        <article class="card">
+          <h2>Overview</h2>
+          <p>
+            Deen Saathi is built to work with minimal data. We do not require an account, and we
+            do not run our own analytics or profile system.
+          </p>
+          <p>
+            Most app preferences are saved locally on your device so the app can remember your
+            choices between launches.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Information We Store on Your Device</h2>
+          <p>
+            The app may store settings such as language, theme, prayer preferences, madhab,
+            manual location, planner preferences, notification settings, favorites, and Tasbeeh
+            state on your device.
+          </p>
+          <p>
+            This information stays on the device unless your browser, device, or operating system
+            syncs it as part of its own features.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Location and Prayer Times</h2>
+          <p>
+            If you allow location access or enter a city manually, Deen Saathi uses that location
+            to calculate prayer times and show related prayer information.
+          </p>
+          <ul>
+            <li>Prayer time calculations use the Aladhan API.</li>
+            <li>City search and reverse geocoding may use OpenStreetMap Nominatim.</li>
+            <li>The Qibla view may use your device location to help point toward the Kaaba.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Permissions</h2>
+          <p>
+            Depending on the features you use, the app may ask for a few device permissions.
+          </p>
+          <ul>
+            <li>Location permission for prayer time and location-based features.</li>
+            <li>Notification permission for prayer reminders.</li>
+            <li>Exact alarm access on Android for more timely prayer notifications.</li>
+            <li>Motion or sensor access only where needed for compass-style views.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Third-Party Services</h2>
+          <p>
+            Deen Saathi uses a few third-party services to provide app features. Those services may
+            process information according to their own privacy policies.
+          </p>
+          <ul>
+            <li>Google AdMob for ads when ads are enabled.</li>
+            <li>Aladhan for prayer time data.</li>
+            <li>OpenStreetMap Nominatim for location search and city lookup.</li>
+            <li>Google Fonts for web-based typography.</li>
+            <li>Play Store, GitHub, and similar external links when you tap update, review, or promotional actions.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h2>Ads and Promotions</h2>
+          <p>
+            When ads are enabled, AdMob may collect and process device or advertising identifiers
+            in line with Google’s own policies. You can also disable ads from the app’s
+            configuration when supported.
+          </p>
+          <p>
+            The app may show optional promotions for related products, but those links only open
+            when you tap them.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Children</h2>
+          <p>
+            Deen Saathi is designed as a general audience Islamic utility app. We do not knowingly
+            collect personal information from children through our own backend, because the app
+            does not use one.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Changes to This Policy</h2>
+          <p>
+            We may update this Privacy Policy if the app changes, third-party services change, or
+            new features are added. The latest version will be shown in the app.
+          </p>
+        </article>
+
+        <article class="card">
+          <h2>Contact</h2>
+          <p>If you have any questions regarding this Privacy Policy, contact: imaanix.app@gmail.com</p>
+        </article>
+      </section>
+
+      <p class="footer">
+        This page is designed as a standalone HTML file and can be hosted as the public privacy
+        policy URL for Play Store submission.
+      </p>
+    </main>
+  </body>
+</html>
